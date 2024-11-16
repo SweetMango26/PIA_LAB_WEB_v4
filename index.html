@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PiaPrograWebFime</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <style>
+    /* CSS del diseño */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Arial', sans-serif;
+    }
+
+    body {
+        background-color: #f5f5f5;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background-color: #005b99;
+        color: white;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+        margin-right: auto;
+        font-size: 1.8em;
+    }
+
+    .menu {
+        margin-left: 20px;
+    }
+
+    .menu__list {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+
+    .menu__link a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .menu__link a:hover {
+        color: #cce7f0;
+    }
+
+    .container {
+        background-color: #cce7f0;
+        padding: 40px;
+        text-align: center;
+        border-radius: 10px;
+        margin: 20px auto;
+        max-width: 800px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h2 {
+        font-size: 2.5em;
+        color: #003366;
+        margin-bottom: 10px;
+    }
+
+    .container p {
+        font-size: 1.2em;
+        color: #333;
+    }
+
+    .team-section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .team-section h3 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #003366;
+    }
+
+    .team-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .team-member {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 220px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .team-member:hover {
+        transform: translateY(-5px);
+    }
+
+    .team-member h4 {
+        font-size: 1.2em;
+        margin: 10px 0 5px;
+        color: #333;
+    }
+
+    .team-member p {
+        font-size: 1em;
+        color: #666;
+    }
+
+    /* Nueva sección sombreada */
+    .footer-section {
+        background-color: #cce7f0;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap; /* Permite que el contenido se ajuste en pantallas más pequeñas */
+    }
+
+    .footer-section img {
+        width: 100px; /* Ajusta el tamaño de las imágenes */
+        height: auto;
+        margin: 10px; /* Espaciado alrededor de las imágenes */
+    }
+
+    .footer-section p {
+        font-size: 1em;
+        color: #333;
+        padding: 0 20px; /* Espacio alrededor del texto */
+        flex: 1; /* Permite que el texto ocupe el espacio restante */
+        max-width: 600px; /* Limita el ancho del texto */
+        margin: 0; /* Elimina el margen superior y inferior del texto */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Proyecto</h1>
+    <nav class="menu">
+      <ul class="menu__list">
+          <li class="menu__link"><a href ="PPrincipal.html">Introducción</a></li>
+          <li class="menu__link"><a href="B1.html">Biografía 1</a></li>
+          <li class="menu__link"><a href="B2.html">Biografía 2</a></li>
+          <li class="menu__link"><a href="B3.html">Biografía 3</a></li>
+          <li class="menu__link"><a href="B4.html">Biografía 4</a></li>
+          <li class="menu__link"><a href="B5.html">Biografía 5</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h2>Lab Programación Web</h2>
+    <p>P.I.A<br>Equipo 1<br>Docente: Ing. Daniela<br>Agosto - Diciembre 2024</p>
+  </section>
+
+  <section class="team-section">
+    <h3>Equipo 1</h3>
+    <div class="team-container">
+      <div class="team-member">
+        <h4>Jonathan Moises Adame Gamez</h4>
+        <p>1991947</p>
+        <p>IAS</p>
+      </div>
+      <div class="team-member">
+        <h4>Salvador Villalobos Díaz</h4>
+        <p>2011810</p>
+        <p>IAS</p>
+      </div>
+      <div class="team-member">
+        <h4>Diego Damian Villanueva Almaraz</h4>
+        <p>2080016</p>
+        <p>IAS</p>
+      </div>
+      <div class="team-member">
+        <h4>Adriana Yaneth Cruz Florencia</h4>
+        <p>2033449</p>
+        <p>IAS</p>
+      </div>
+      <div class="team-member">
+        <h4>Johan Omar Redendiz Delabra</h4>
+        <p>2084625</p>
+        <p>ITS</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-section">
+    <div class="footer-content">
+      <img src="fi.png" alt="Imagen izquierda" class="left">
+      <p>Este proyecto fue desarrollado por el equipo 1 como parte del curso de Programación Web en la Facultad de Ingeniería Mecánica y Eléctrica. Agradecemos el apoyo de nuestra docente, la Ing. Daniela, por su orientación y enseñanza.</p>
+      <img src="UNI.png" alt="Imagen derecha" class="right">
+    </div>
+  </section>
+
+  <app-root></app-root>
+</body>
+</html>
